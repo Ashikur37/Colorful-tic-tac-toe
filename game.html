@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="gamestyle.css">
+</head>
+<body>
+	<div id="board" style="position: fixed;">
+	</div>
+	<div style="margin-left: 400px;">
+		<b>Player 1</b><input id="cp1" type="range" min="0" max="5" onchange="changecolor(this.id)" value="0"><div id="cp1s"></div>
+		<br>
+		<b>Player 2</b><input id="cp2" type="range" min="0" max="5" onchange="changecolor(this.id)" value="1"><div id="cp2s"></div>
+		<div>
+			<h3 id="status">Player 1 turn</h3>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="gamescript.js">
+	</script>
+</html>
